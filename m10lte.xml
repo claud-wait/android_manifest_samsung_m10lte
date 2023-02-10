@@ -7,19 +7,19 @@
 
     <!-- Remote -->
     <remote fetch="https://github.com/youssefnone" name="m10" />
-    <remote fetch="https://github.com/youssefnoner" name="m10lte" />
+    <remote fetch="https://github.com/youssefnoner" name="m101" />
 	
     <!-- Device -->
-    <project name="android_device_samsung_m10lte" path="device/samsung/m10lte" remote="m10lte" revision="cr-8.0" />
+    <project name="android_device_samsung_m10lte" path="device/samsung/m10lte" remote="m101" revision="cr-8.0" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="m10" revision="aosp" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/m10lte" remote="m10" revision="aosp" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_m10lte" path="vendor/samsung/m10lte" remote="m10" revision="common" />
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="m10" revision="common" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="m10lte" revision="cr-8.0" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="m101" revision="cr-8.0" />
 		
 </manifest>
