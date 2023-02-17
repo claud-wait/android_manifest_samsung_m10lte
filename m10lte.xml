@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: m10lte
-    * rom: crDroid
+    * rom: cr-8.0
     -->
 
     <!-- Remote -->
