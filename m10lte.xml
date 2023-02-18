@@ -14,13 +14,13 @@
     <project name="android_device_samsung_m10lte" path="device/samsung/m10lte" remote="m10lte" revision="cr-9.0" />
 
     <!-- Kernel -->
-    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/m10lte" remote="m10" revision="aosp" />
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/m10lte" remote="m10" revision="aosp-11" />
 
     <!-- Vendor -->
     <project name="android_vendor_samsung_m10lte" path="vendor/samsung/m10lte" remote="m10lte" revision="cr-9.0" />
     <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="exynos" revision="lineage-18.1" />
 
     <!-- Hardware -->   
-    <project name="android_hardware_samsung" path="hardware/samsung" remote="m10lte" revision="cr-9.0" />
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="exynos" revision="lineage-18.1" />
 		
 </manifest>
